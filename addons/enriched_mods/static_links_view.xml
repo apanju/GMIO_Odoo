@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <menuitem name="OMS Management" id="menu_oms_links_system" parent="base.menu_administration" groups="base.group_system" sequence="10"/>
+
+        <record id="open_link_issue_tracker" model="ir.actions.act_url">
+            <field name="name">Open Issue Tracker</field>
+            <field name="url">https://enriched.atlassian.net</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem action="open_link_issue_tracker" name="Report Issue" id="menu_oms_report_issue" parent="enriched_mods.menu_oms_links_system" groups="base.group_system" sequence="10"/>
+
+    </data>
+</openerp>
