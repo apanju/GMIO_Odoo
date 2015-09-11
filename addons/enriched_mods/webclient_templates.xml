@@ -6,6 +6,9 @@
                 <link rel="stylesheet" href="/enriched_mods/static/src/css/enriched.css"/>
                 <script type="text/javascript" src="/enriched_mods/static/src/js/enriched.js"></script>
             </xpath>
+            <xpath expr="//head//link" position="after">
+                <link rel="shortcut icon" href="/enriched_mods/static/src/img/favicon.ico" type="image/x-icon"/>
+            </xpath>
         </template>
         <template id="enriched_mods.web_layout" inherit_id="web.layout" name="Enriched Layout">
             <xpath expr="//title" position="replace">
