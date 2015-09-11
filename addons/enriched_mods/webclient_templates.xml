@@ -14,6 +14,9 @@
             <xpath expr="//title" position="replace">
                 <title>OMS | Global MIO</title>
             </xpath>
+            <xpath expr="//head//link[@type='image/x-icon']" position="replace">
+                <link rel="shortcut icon" href="/enriched_mods/static/src/img/favicon.ico" type="image/x-icon"/>
+            </xpath>
         </template>
         <template id="enriched_mods.login_layout" inherit_id="web.login_layout" name="Enriched Login">
             <xpath expr="//div[@class='oe_single_form_footer']" position="replace">
