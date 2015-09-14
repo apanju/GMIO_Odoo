@@ -3,12 +3,12 @@
     <data>
 
         <!-- Top menu item -->
-        <menuitem name="Sales"
+        <menuitem name="CRM"
             id="menu_base_partner"
             groups="base.group_sale_salesman"
             sequence="20"/>
 
-            <menuitem id="base.menu_sales" parent="base.menu_base_partner" name="Sales" sequence="1" />
+            <menuitem id="base.menu_sales" parent="base.menu_base_partner" name="Address Book" sequence="1" />
             <menuitem id="menu_base_config" parent="menu_base_partner" name="Configuration" sequence="30" groups="group_system"/>
             <menuitem id="menu_config_address_book" parent="menu_base_config" name="Address Book" sequence="40" groups="group_system"/>
 
@@ -412,7 +412,7 @@
         </record>
 
         <record id="action_partner_form" model="ir.actions.act_window">
-            <field name="name">Customers</field>
+            <field name="name">Contacts</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">res.partner</field>
             <field name="view_type">form</field>
@@ -450,7 +450,7 @@
         <menuitem id="menu_partner_form" parent="base.menu_sales" action="action_partner_form" sequence="2"/>
 
         <record id="action_partner_customer_form" model="ir.actions.act_window">
-            <field name="name">Customers</field>
+            <field name="name">Contacts</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">res.partner</field>
             <field name="view_type">form</field>
