@@ -28,10 +28,5 @@
             </xpath>-->
 
         </template>
-        <template id="enriched_mods_layout" inherit_id="website.layout" name="enriched_mods layout" priority="17">
-            <xpath expr="//head//link" position="after">
-                <link rel="shortcut icon" href="/enriched_mods/static/src/img/favicon.ico" type="image/x-icon"/>
-            </xpath>
-        </template>
     </data>
 </openerp>
